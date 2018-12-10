@@ -13,8 +13,7 @@ if ($LastExitCode -ne 0)
 # If git describe failed, fallback to 0.0.0
 if ($LastExitCode -ne 0)
 {
-    $version = "0.0.0"
-    $incrementPatch = $False
+    $version = ""
 }
 
 if ($incrementPatch)
